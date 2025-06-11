@@ -10,7 +10,7 @@ Built using the mighty powers of **Next.js 15**, **TypeScript**, and the wizardr
 
 ## 🖥️ Live in Action
 
-🚀 [Check Out the Live Demo](https://trail-4qi-nreui.vercel.app/)
+🚀 [Check Out the Live Demo](https://vibevent-2-0.vercel.app/)
 
 ---
 
