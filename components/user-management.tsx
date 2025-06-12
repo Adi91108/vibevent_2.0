@@ -263,7 +263,7 @@ export default function UserManagement({ users, currentUserId }: UserManagementP
         </div>
         <Dialog open={isCreateDialogOpen} onOpenChange={setIsCreateDialogOpen}>
           <DialogTrigger asChild>
-            <Button className="w-full sm:w-auto">
+            <Button className="w-full sm:w-auto bg-orange">
               <Plus className="w-4 h-4 mr-2" />
               Add User
             </Button>

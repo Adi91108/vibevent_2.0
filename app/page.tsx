@@ -30,7 +30,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-milk">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-milk/90 backdrop-blur-lg border-b border-orange z-50 shadow-sm">
+      <nav className="fixed top-0 w-full bg-orange/90 backdrop-blur-lg border-b border-milk z-50 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
@@ -43,7 +43,7 @@ export default function HomePage() {
                   className="text-white"
                 />
               </div>
-              <span className="text-xl font-bold text-orange">
+              <span className="text-xl font-bold text-milk">
                 EventEasee
               </span>
             </div>
@@ -51,7 +51,7 @@ export default function HomePage() {
             <div className="flex items-center space-x-4">
               <button
                 onClick={() => setAuthMode("signin")}
-                className="text-orange hover:text-[#ee5027] transition-colors text-md font-bold hidden sm:block"
+                className="text-milk hover:text-black transition-colors text-md font-bold hidden sm:block"
               >
                 Sign In
               </button>

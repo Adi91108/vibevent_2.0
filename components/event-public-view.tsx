@@ -106,7 +106,7 @@ export default function EventPublicView({ event }: EventPublicViewProps) {
                 <Button
                   onClick={() => router.push("/dashboard")}
                   type="button"
-                  className="w-full h-10 sm:h-12 bg-slate-900 hover:bg-slate-800 text-white font-semibold rounded-lg shadow-sm hover:shadow-md transition-all duration-200"
+                  className="w-full h-10 sm:h-12 bg-orange hover:bg-slate-800 text-white font-semibold rounded-lg shadow-sm hover:shadow-md transition-all duration-200"
                 >
                   Home
                 </Button>

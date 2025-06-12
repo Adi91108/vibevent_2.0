@@ -277,7 +277,7 @@ export default function EventForm({ event }: EventFormProps) {
             <Button
               type="submit"
               disabled={loading}
-              className="flex-1 h-11 font-medium"
+              className="flex-1 h-11 font-medium bg-orange"
             >
               {loading ? "Saving..." : event ? "Update Event" : "Create Event"}
             </Button>

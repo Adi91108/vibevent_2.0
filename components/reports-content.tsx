@@ -205,8 +205,8 @@ export default function ReportsContent({
             Comprehensive insights into event performance and user engagement
           </p>
         </div>
-        <Button onClick={exportToCSV} className="w-full sm:w-auto">
-          <Download className="w-4 h-4 mr-2" />
+        <Button onClick={exportToCSV} className="w-full sm:w-auto bg-orange">
+          <Download className="w-4 h-4 mr-2 " />
           Export CSV
         </Button>
       </div>

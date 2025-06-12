@@ -107,7 +107,7 @@ export default function DashboardSidebar({
 
   const DesktopSidebarContent = () => (
     <div
-      className={`flex flex-col h-full bg-milk shadow-lg border-r border-gray-200 transition-all duration-300 ease-in-out ${
+      className={`flex flex-col h-full bg-white shadow-lg border-r border-gray-200 transition-all duration-300 ease-in-out ${
         isHovered ? "w-64" : "w-16"
       }`}
       onMouseEnter={handleMouseEnter}
@@ -116,7 +116,7 @@ export default function DashboardSidebar({
       {/* Header */}
       <div className="p-4 border-b border-gray-200">
         <div className="flex items-center justify-start">
-          <div className="w-8 h-8 bg-milk rounded-full flex items-center justify-center flex-shrink-0">
+          <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center flex-shrink-0">
             <Image
               src="/logo5.png"
               alt="Calendar icon"
